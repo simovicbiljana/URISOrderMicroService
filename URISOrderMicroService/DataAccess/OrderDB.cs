@@ -78,7 +78,29 @@ namespace URISOrderMicroService.DataAccess
         {
             return str == null ? (object)DBNull.Value : "%" + str + "%";
         }
+        
+        public static List<Order> GetOrders(DateTime Date, string DeliveryAddress, ActiveStatusEnum active, OrderEnum orderDirection)
+        {
+            try
+            {
+                List<Order> retVal = new List<Order>();
 
+                using (SqlConnection connection = new SqlConnection(DBFunctions.ConnectionString))
+                {
+                   
+
+                }
+
+                return retVal;
+
+            }
+            catch (Exception ex)
+            {
+                Logger.WriteLog(ex);
+                throw ErrorResponse.ErrorMessage(HttpStatusCode.BadRequest, ex);
+            }
+        }
+        
         public static Order GetOrder(int orderId)
         {
             try

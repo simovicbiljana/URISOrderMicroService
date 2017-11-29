@@ -1,13 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.27004.2006
+VisualStudioVersion = 15.0.26730.15
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "URISOrderMicroService", "URISOrderMicroService\URISOrderMicroService.csproj", "{D53A32F0-4F45-4794-80FC-C1DB729C5972}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "URISOrderMicroService.Tests", "URISOrderMicroService.Tests\URISOrderMicroService.Tests.csproj", "{F2363249-E49D-4710-85D3-8AEF7AD6799D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "URISUtil", "..\Util\URISUtil\URISUtil\URISUtil.csproj", "{3DC6A668-783B-4D14-A8B8-2FB1C718F78D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "URISUtil", "..\..\Util\URISUtil\URISUtil\URISUtil.csproj", "{3DC6A668-783B-4D14-A8B8-2FB1C718F78D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
